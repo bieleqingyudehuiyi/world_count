@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',function.home),  # 路径为空时，会查找function.py里面的home函数
     path('count/',function.count),
+    path('about/',function.about),
 ]

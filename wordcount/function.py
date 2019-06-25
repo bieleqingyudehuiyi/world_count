@@ -23,3 +23,7 @@ def count(request):
     return render(request, 'count.html',
     {'count': total_count,'text':user_text,
     'worldict':world_dict,'sorted':sorted_dict})  # 通过字典将total_count 传递给html
+
+
+def about(request):
+    return render(request, 'about.html')
